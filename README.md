@@ -1,4 +1,3 @@
-Innomatics Full Stack Development Internship
-#innominions
-#innomatics_internship
+Innomatics Full Stack Development
+
 
