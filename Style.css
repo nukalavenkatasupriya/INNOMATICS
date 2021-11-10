@@ -1,0 +1,78 @@
+.custom-btn {
+  padding: 5px 25px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  background: transparent;
+  outline: none !important;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  border-radius: 25px;
+}
+/**** BTN No. 1 ****/
+.btn-1 {
+  border: 2px solid #0c56d0;
+  z-index: 1;
+  color: #0c56d0;
+  box-shadow: 0 1px 6px 0 rgb(32 33 36 / 28%);
+}
+.btn-1:after {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 100%;
+  top: 0;
+  right: 0;
+  z-index: -1;
+  background: #0c56d0;
+  transition: all 0.8s ease;
+  border-radius: 25px;
+}
+.btn-1:hover {
+  color: #fff;
+}
+.btn-1:hover:after {
+  left: 0;
+  width: 100%;
+}
+.btn-1:active {
+  top: 2px;
+}
+
+/**** BTN No. 2 ****/
+.btn-2 {
+  border: 2px solid #b23cfd;
+  z-index: 1;
+  color: #b23cfd;
+  box-shadow: 0 1px 6px 0 rgb(32 33 36 / 28%);
+}
+.btn-2:after {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 100%;
+  top: 0;
+  right: 0;
+  z-index: -1;
+  background: #b23cfd;
+  transition: all 0.8s ease;
+  border-radius: 25px;
+}
+.btn-2:hover {
+  color: #fff;
+}
+.btn-2:hover:after {
+  left: 0;
+  width: 100%;
+}
+.btn-2:active {
+  top: 2px;
+}
+
+@media screen and (min-width: 1200px) {
+  .buttons-bne {
+    position: relative !important;
+    top: 40px !important;
+  }
+}
